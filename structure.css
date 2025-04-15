@@ -1,0 +1,40 @@
+#head2{
+    color: green;
+    background-color: rgb(58, 255, 163);
+}
+h2{
+    color: rgb(14, 4, 158);
+    background-color: rgb(140, 202, 253);
+    font-weight: 100;
+}
+p{
+    color: rgb(17, 110, 89);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    line-height: px;
+    text-transform:capitalize;
+}
+#linet{
+    text-decoration:underline wavy;
+  
+}
+h1{
+    color: red;
+    text-align: center
+}
+b{
+    background-color: darkgoldenrod;
+}
+i{
+    color: rgb();
+}
+u{
+   background-color: rgb(1, 109, 73);
+}
+i{
+    background-color: rgb(30, 171, 171);
+}
+big{
+    text-decoration: dotted;
+    font-size: 24px;
+}
