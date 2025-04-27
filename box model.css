@@ -1,0 +1,28 @@
+p , h1{
+    height: 30px;
+    background-color: blueviolet;
+    display: inline;
+}
+span {
+    display: block;
+}
+#harry{
+    background-color: rgb(255, 187, 0);
+}
+#horm{
+    background-color: rgb(81, 255, 0);
+}
+#whe{
+    background-color: rgb(255, 0, 0);
+}
+div{
+    height:100px;
+    width: 100px;
+    
+    margin: 10px;
+    display: inline-block;
+}
+#is{
+    height: 30px;
+    background-color: hsla(181, 100%, 41%, 0.3);
+}
