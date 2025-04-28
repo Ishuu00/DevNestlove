@@ -1,0 +1,71 @@
+body{
+    
+    padding: 0%;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+#outer{
+    height: 600px; width: 400px; 
+    border: 2px black solid;
+    /* first step is make display flex container */
+    display: flex;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    border:solid ;
+}
+#one {
+    background-color: rgb(255, 145, 0);
+}
+#two{
+    background-color: blue;
+}
+#three{
+    background-color: crimson;
+   flex-shrink: 2;
+}
+#four{ 
+    background-color: darkgreen;
+    flex-shrink: 4;
+    
+}
+#five{
+    background-color: deeppink;
+    
+}
+
+#nav{
+    display: flex;
+    height: 30px;
+    background-color: black;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white
+    
+}
+#logo{
+    color: rgb(255, 166, 0);
+}
+button{
+    background-color: rgb(255, 170, 0);
+    color: white;
+}
+#same{
+    height: 300px;
+    width: 300px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fame{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
