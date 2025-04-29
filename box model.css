@@ -2,6 +2,7 @@ p , h1{
     height: 30px;
     background-color: blueviolet;
     display: inline;
+    color: white;
 }
 span {
     display: block;
