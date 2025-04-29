@@ -26,3 +26,21 @@ div{
     height: 30px;
     background-color: hsla(181, 100%, 41%, 0.3);
 }
+@media(max-width:300px){
+    #media{background-color: green;}
+}
+@media(min-width:300px) and (max-width:400px){
+    #media2{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    #media3{
+        background-color: rgb(114, 20, 35);
+    }
+}
+@media(min-width:600px){
+    #media4{
+        background-color: blue;
+    }
+}
