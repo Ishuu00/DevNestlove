@@ -2,47 +2,65 @@ h1{
     text-align: center;
 }
 #sudo{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(0, 80, 13);
+    height: 150px;
+    width: 150px;
     color: white;
-    transition: all;
-    transition-duration: 0.3s;
+    background-color: rgb(191, 0, 255);
 }
 #sudo:hover{
-    background-color: rgb(0, 255, 128);
-    color: black;
+    background-color: rgb(255, 174, 0);
 }
 #sudo:active{
-    background-color: lightblue;
-    color: black;
-}
-button{
-    color: white;
-    background-color: black;
-}
-button:hover{
-    background-color: rgba(0, 0, 0, 0.63);
-}
-button:active{
-    background-color: aliceblue;
-    color: black;
+    background-color: cadetblue;
 }
 #one{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(255, 0, 195);
-    color: rgb(0, 0, 0);
-    /* transition: all;
-    transition-duration:2s;
-    transition-timing-function: ease-in;
-    transition-delay: 4s; */
-    transition:all  2s  ease-in 2s ;
+    height: 150px;
+    width: 150px;
+    background-color: pink;
 }
 #one:hover{
-    background-color: rgb(25, 0, 255);
-    font-size: 25px;
+    transform: rotate(45deg);
 }
 #one:active{
-    background-color: rgb(16, 168, 168);
+    transform: rotate(45deg) scale(2);
+}
+#two{
+    height: 150px;
+    width: 150px;
+    color: white;
+    background-color: green;
+    position: relative;
+    left: 150px;
+}
+#two:hover{
+    transform: translate(40px, 30px);
+}
+#two:active{
+    transform: skew(45deg);
+}
+button{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    transition:all 0.3s ease-in ;
+    background-color: palevioletred;
+
+}
+button:hover{
+    font-size: 25px;
+    background-color: plum;
+}
+button:active{
+    transform: scaleX(2);
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    transition: all 0.3s ease-in;
+    display: inline;
+}
+h2:hover{
+    font-size: 35px;
 }
