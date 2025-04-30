@@ -2,10 +2,7 @@ p , h1{
     height: 30px;
     background-color: blueviolet;
     display: inline;
-<<<<<<< HEAD
-=======
     color: white;
->>>>>>> 94f06a7e83dabea2fad6205ef6b506b07744db7b
 }
 span {
     display: block;
@@ -29,8 +26,6 @@ div{
 #is{
     height: 30px;
     background-color: hsla(181, 100%, 41%, 0.3);
-<<<<<<< HEAD
-=======
 }
 @media(max-width:300px){
     #media{background-color: green;}
@@ -63,5 +58,4 @@ div{
 }
 #sudo:active{
     background-color: rgb(72, 202, 245);
->>>>>>> 94f06a7e83dabea2fad6205ef6b506b07744db7b
 }
