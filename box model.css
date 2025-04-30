@@ -45,3 +45,17 @@ div{
         background-color: blue;
     }
 }
+#sudo{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 82, 31);
+    color: white;
+}
+
+#sudo:hover{
+    background-color: rgb(173, 180, 70);
+    color: black;
+}
+#sudo:active{
+    background-color: rgb(72, 202, 245);
+}
