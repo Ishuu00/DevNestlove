@@ -49,3 +49,24 @@ scale: 1; }
         color: white;
     }
 }
+
+#loader{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left:300px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #1E555C;
+    border-bottom: 10px solid rgb(174, 174, 174);
+    animation: load 1.5s ease-in-out infinite;
+}
+
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
