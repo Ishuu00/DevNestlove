@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+#sudo{
+    height: 150px;
+    width: 150px;
+    color: white;
+    background-color: rgb(191, 0, 255);
+}
+#sudo:hover{
+    background-color: rgb(255, 174, 0);
+}
+#sudo:active{
+    background-color: cadetblue;
+}
+#one{
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+}
+#one:hover{
+    transform: rotate(45deg);
+}
+#one:active{
+    transform: rotate(45deg) scale(2);
+}
+#two{
+    height: 150px;
+    width: 150px;
+    color: white;
+    background-color: green;
+    position: relative;
+    left: 150px;
+}
+#two:hover{
+    transform: translate(40px, 30px);
+}
+#two:active{
+    transform: skew(45deg);
+}
+button{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    transition:all 0.3s ease-in ;
+    background-color: palevioletred;
+
+}
+button:hover{
+    font-size: 25px;
+    background-color: plum;
+}
+button:active{
+    transform: scaleX(2);
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    transition: all 0.3s ease-in;
+    display: inline;
+}
+h2:hover{
+    font-size: 35px;
+}
