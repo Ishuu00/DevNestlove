@@ -9,11 +9,10 @@
     <h2>Cart quantity</h2>
 
     <button onclick="console.log(cartquantity)">Show quantity</button>
-    <button onclick=" cartquantity = cartquantity +1; console.log(cartquantity)">add to cart</button>
-    <button>+2</button>
-    <button>+3</button>
-    <button>reset cart</button>
-
+    <button onclick=" cartquantity = cartquantity +1; console.log(`cartquantity : ${cartquantity}`)">add to cart</button>
+    <button onclick="cartquantity = cartquantity +2 ;console.log(`cartquantity : ${cartquantity}`)">+2</button>
+    <button onclick="cartquantity = cartquantity+3 ; console.log(`cartquantity : ${cartquantity}`)">+3</button>
+    <button onclick="cartquantity ; console.log(`cartquantity : ${cartquantity*0}`)">reset cart</button>
     <script>
         let cartquantity = 0
     </script>
