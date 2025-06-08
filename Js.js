@@ -59,4 +59,74 @@ profile.name = "ishu kashyap" // update keys
 profile.discription = "Devloper | student"
 console.log(typeof profile.isfollow); //can ask type 
 
- 
+// operators
+let q = 5
+let p = 3
+console.log("q + p =", q+p)
+console.log("q - p =", q-p)
+console.log("q * p =", q*p)
+console.log("q / p =", q/p)
+console.log("q % p =", q%p) //modulas
+console.log("q ** p =", q**p) // exponention
+
+// Uniary operators - which does not need 2 components to do arthmetic operations
+// q = q - 1 _q++ , q = q +1 _q++
+console.log(q++)
+console.log(q)
+
+// Asignment operators
+let e = 5
+e **=4 // e = e**4 , 
+console.log(e)
+// Comparison operators
+let f = 5 
+let g = 8
+console.log(g!=f)
+console.log(f<=g)
+
+// logical operators 
+console.log(f>g || g<f)
+console.log(!(f>g))
+
+//conditonal statements 
+let age = 9;
+// if ( age >= 18 ){
+//    console.log("can drive");
+// }else{
+//    console.log("can't drive");
+// }
+let driveEligiblity;
+if(age>=18){
+   driveEligiblity = "can drive"
+}else{ 
+   driveEligiblity= "can't drive"
+}
+console.log(`driveEligiblity : ${driveEligiblity}`)
+
+let mode = "white";
+let colour;
+if(mode ==="dark"){
+   colour = "black";
+}else{
+   colour = "white";
+}
+console.log(colour);
+
+// even and odd number condinatonal statement 
+let numType;
+let num =17452
+if(num%2 ==0){
+   console.log(num, "is even")
+}else{
+   console.log(num, "is odd")
+}
+
+// else-if statement
+let Age =99
+if(Age<=18){
+   console.log("is junior")
+} else if (Age>18 ,Age<40){
+   console.log("is yougster")
+} else{
+   console.log("is senior citizen")
+}
