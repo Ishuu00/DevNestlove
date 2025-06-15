@@ -122,11 +122,111 @@ if(num%2 ==0){
 }
 
 // else-if statement
-let Age =99
+let Age =9;
 if(Age<=18){
-   console.log("is junior")
+   console.log("is Junior")
 } else if (Age>18 ,Age<40){
-   console.log("is yougster")
+   console.log("is Adult")
 } else{
    console.log("is senior citizen")
 }
+
+// Tenary statements (a? "b":"c")
+tenurity = Age<=18 ? "junior" : "adult";
+console.log(tenurity);
+console.log(Age<=18 ? "junior" : "adult");
+
+// another example
+let workTime = "morning"
+console.log(workTime =="evening" ? "go to shop" : "stay home");
+
+// let user = prompt("Enter the number");
+// multiple = user%3==0 ? "is multiple of 3 " : "is not multiple of 3";
+// console.log(user , multiple);
+
+let score =2
+if(score<=100 && score>=90){
+   grade = "A"
+}else if( score<=89 && score>=80 ){
+   grade ="B"
+}else if( score<=79 && score>=70 ){
+   grade ="C";
+}else if( score<=69 && score>=60 ){
+   grade ="D"
+}else if( score<=59 && score>=50 ){
+   grade ="E"
+}else if( score<=49 && score>=0 ){
+   grade ="F"
+}
+console.log(grade);
+
+// loops  
+for (i = 1 ; i <2 ;i++){
+   console.log("Ishu");
+}
+let total = 0;
+for (i = 1; i<=2 ;i++){
+   total = total + i 
+}
+console.log(total);
+// infinite loop should never you write
+// for ( i = 1; i>0 ;i++){
+//    console.log(i);
+// }
+
+// while loop
+let I=1;
+while(I<=2) {
+   I++;
+   console.log("Chrome")
+}
+// do while
+do {
+   console.log("SIA")
+   I++;
+}while (I<5)
+// for of loop
+let Sia = "ISHU" 
+for (let words of Sia){ //its  used for arrays and strings 
+   console.log(words);
+}
+// for-in 
+let household ={
+   name : "vika",
+   age :18,
+   isstudent :true,
+}
+for (let sam in household){
+   console.log(sam)
+   console.log(household[sam]);
+}
+// o to 1 print all even numbers
+for(i=0;i<=10;i++){
+   if(i%2==0){
+      console.log(i)
+   }
+}
+let str=  "Ishi"
+console.log(str.length) //string length
+console.log(str[0])  // string indices
+// let gamenum =prompt("Enter your number to start your game")
+// while(gamenum<50 || gamenum>60){
+//    gamenum = prompt ("Your wrong try again");
+// }
+// alert("you win")
+// console.log("hurry you win")
+let fruit ="papaya"
+console.log(`${household.name} is good girl\ther age is ${age} and \nshe likes to eat ${fruit}`) //backtick and escape characters
+
+// methods in js
+let ab = "avikasharma";
+ab= ab.toLocaleLowerCase();
+ab= ab.toUpperCase();
+ab =ab.trim();
+ab = ab.slice(0,5)
+console.log(ab); 
+let str1 = "ishu"
+let str2 = "kashyap"
+console.log(str1.concat(str2))
+let st3 = "Ishu kashyap"
+console.log(st3.replace("Ishu", "avika"));
